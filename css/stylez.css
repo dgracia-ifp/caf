@@ -10,7 +10,7 @@ header{
     width: 960px;
     text-align: center;
     margin: 0 auto;
-    background-color: white;
+    background-color: ;
 }
 header, h1{
     font-family: Helvetica;
@@ -25,12 +25,11 @@ header, h1{
 }
 
 .peu{
-   height: 220px;
-   width: 960px;
-   background-color: bisque;
-   margin: 0 auto;
+    margin: 0 auto;
+    width: 960px;
+    height: 220px;
 
-
+    text-align: center;
 }
 
 .fotocoche{
@@ -80,9 +79,13 @@ header, h1{
 
 .animacion{
     width: 960px;
+    position: relative;
+    margin-top:-120px;
+    text-align: center;
+    margin: -120px auto;
     height: 589px;
-    background-color: ;
-    background-repeat: no-repeat;
+    text-align: center;
+
     animation: camaleon 18s infinite linear;
 }
 
